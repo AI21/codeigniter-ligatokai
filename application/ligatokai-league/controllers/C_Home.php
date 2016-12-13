@@ -53,6 +53,8 @@ class C_Home extends MY_Controller {
 
 		$aryData = array();
 
+//		$test;
+
 		$aryData = $this -> M_Home -> main( $p_intRarryId );
 
 		// ビューの指定
